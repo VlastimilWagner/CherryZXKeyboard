@@ -1,0 +1,98 @@
+
+(rules PCB 48P-KLDX
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 6)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 800.0)
+    (clear 200.0)
+    (clear 400.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd-smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Slabsi" "Via[0-1]_800:400_um" Slabsi
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    Slabsi "Via[0-1]_800:400_um-Slabsi"
+  )
+  (class default
+    VDD VSS "Net-(RN1-Pad4)" "Net-(RN4-Pad5)" "Net-(RN1-Pad5)" "Net-(RN1-Pad3)" "Net-(RN1-Pad2)" "Net-(J1-Pad1)"
+    "unconnected-(RN1-Pad6)" "unconnected-(RN3-Pad6)" "Net-(RN4-Pad4)" "unconnected-(U5-Pad4)" "unconnected-(U5-Pad8)" "unconnected-(U5-Pad11)" "unconnected-(SW59-Pad2)" "unconnected-(SW59-Pad1)"
+    "unconnected-(SW60-Pad2)" "unconnected-(SW60-Pad1)" "unconnected-(SW61-Pad2)" "unconnected-(SW61-Pad1)" "unconnected-(SW62-Pad2)" "unconnected-(SW62-Pad1)" "unconnected-(SW63-Pad2)" "unconnected-(SW63-Pad1)"
+    "unconnected-(SW64-Pad2)" "unconnected-(SW64-Pad1)" "Net-(J1-Pad5)" "Net-(J1-Pad4)" "Net-(J1-Pad3)" "Net-(J1-Pad2)" "Net-(RN4-Pad6)" "Net-(RN3-Pad2)"
+    "Net-(J2-Pad1)" "Net-(J2-Pad2)" "Net-(J2-Pad3)" "Net-(J2-Pad4)" "Net-(J2-Pad5)" "Net-(J2-Pad6)" "Net-(J2-Pad7)" "Net-(J2-Pad8)"
+    "Net-(RN3-Pad3)" "Net-(RN2-Pad6)" "Net-(RN2-Pad4)" "Net-(SW47-Pad1)" "Net-(RN2-Pad2)" "Net-(RN2-Pad3)" "Net-(RN3-Pad4)" "Net-(RN3-Pad5)"
+    "Net-(RN4-Pad2)" "Net-(RN4-Pad3)" "Net-(RN2-Pad5)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 800.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 800.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Slabsi
+    (clearance_class Slabsi)
+    (via_rule Slabsi)
+    (rule
+      (width 400.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "48P-KLDX-rescue")(type "Legacy")(uri "${KIPRJMOD}/CherryZXKeyboard-rescue.lib")(options "")(descr ""))
+)
