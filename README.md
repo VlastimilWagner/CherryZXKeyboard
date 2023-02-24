@@ -45,7 +45,7 @@ I divided the printing of the mat into 2 parts so that it would not be a problem
 
 ### Labels
 The labels were drawn in Inkscape and can be printed on any color printer on plain office paper. File in SVG format is in [Labels](./Labels) directory.
-
+![Stitky](/Images/Stitky.png )
 
 
 
