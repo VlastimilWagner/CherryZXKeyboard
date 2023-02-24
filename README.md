@@ -16,3 +16,28 @@ In the [Gerber](/Gerber) directory there are materials for production. For examp
 
 ### Electronic Parts
 These are common cheap parts from a local dealer - for example TME.
+
+### Mechanical MX Switches
+You can use the original, but rather expensive Cherry MX, or, like me, a copy of the MX switches from AliExpress.
+
+### Keycaps
+Three types of keycaps are used:
+- Standard buttons
+- Wider buttons
+- Space bar
+
+### Mechanical stabilizers
+Two types of stabilizers are used
+- 4 pcs Wider buttons
+- 1 pc Spacebar
+
+### 3D printed inserts
+I divided the printing of the mat into 2 parts so that it would not be a problem to print it on a standard size 3D printer. The documents in STL format are in the [Stl](./Stl) directory.
+
+### Labels
+The labels were drawn in Inkscape and can be printed on any color printer on plain office paper. File in SVG format is in [Labels](./Labels) directory.
+
+
+
+
+
