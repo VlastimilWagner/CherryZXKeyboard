@@ -8,3 +8,11 @@ Since the ZX Spectrum+ membrane is double-layered, the 48p-KDLX solution was sui
 ![3D](/Images/CherryZXKeyboard3D.png )
 
 I designed the first version of the keyboard in such a way that 2 MX buttons were used simultaneously for the longer keys and even 3 for the spacebar. It worked well outside of the spacebar, but in the latest version that is stored here I already modified it to use 1 button for the center and auxiliary buttons synchronization mechanisms. Fortunately, even the original version with one sync mechanism for the spacebar is normally usable (it's in the photos) and I didn't have to make a new PCB.
+
+## What is needed to make
+
+### PCB
+In the [Gerber](/Gerber) directory there are materials for production. For example, on [https://jlcpcb.com](https://jlcpcb.com), just pack this directory in ZIP format, insert it into the order, and after payment, you have printed circuit boards within 2 weeks, even with the cheapest selected transport.
+
+### Electronic Parts
+These are common cheap parts from a local dealer - for example TME.
