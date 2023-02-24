@@ -17,7 +17,7 @@ In the [Gerber](/Gerber) directory there are materials for production. For examp
 ### Electronic Parts
 These are common cheap parts from a local dealer - for example TME.
 
-### Mechanical MX Switches
+### Mechanical MX Switches (58 pcs)
 You can use the original, but rather expensive Cherry MX, or, like me, a copy of the MX switches from AliExpress.
 ![MX](/Images/MX.png )
 
