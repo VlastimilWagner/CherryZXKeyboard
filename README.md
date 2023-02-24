@@ -19,6 +19,7 @@ These are common cheap parts from a local dealer - for example TME.
 
 ### Mechanical MX Switches
 You can use the original, but rather expensive Cherry MX, or, like me, a copy of the MX switches from AliExpress.
+![MX](/Images/MX.png )
 
 ### Keycaps
 Three types of keycaps are used:
