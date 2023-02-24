@@ -22,14 +22,22 @@ You can use the original, but rather expensive Cherry MX, or, like me, a copy of
 
 ### Keycaps
 Three types of keycaps are used:
-- Standard buttons
-- Wider buttons
-- Space bar
+
+#### - Standard buttons (53 pcs)
+![KeyCap](/Images/KeyCap.jpg )
+
+#### - Wide buttons (4 pcs)
+![WideKeyCaps](/Images/WideKeyCaps.jpg )
+
+#### - Space bar (1 pc)
+![SpaceBar](/Images/SpaceBar.jpg )
 
 ### Mechanical stabilizers
-Two types of stabilizers are used
-- 4 pcs Wider buttons
-- 1 pc Spacebar
+
+#### - Wide buttons (4 pcs)
+#### - Space bar (1 pc)
+![Stabilisers](/Images/Stabilisers.jpg )
+
 
 ### 3D printed inserts
 I divided the printing of the mat into 2 parts so that it would not be a problem to print it on a standard size 3D printer. The documents in STL format are in the [Stl](./Stl) directory.
