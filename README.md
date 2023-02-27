@@ -17,24 +17,31 @@ In the [Gerber](/Gerber) directory there are materials for production. For examp
 
 ### Electronic Parts
 These are common cheap parts from a local dealer - for example TME.
+30 pcs Diode BAT42
+1 pc Electrolytic capacitor 10u
+5 pcs Resistor network (6x-1-104LF) 
+5 pcs 74HC4066
+5 pcs DIP14 socket
 
-### Mechanical MX Switches (62 pcs)
+### Mechanical MX Switches (62 pcs) ![AliExpress](https://www.aliexpress.com/item/1005004285423123.html )
 You can use the original, but rather expensive Cherry MX, or, like me, a copy of the MX switches from AliExpress.
 ![MX](/Images/MX.png )
 
 ### Keycaps
 Three types of keycaps are used:
 
-#### - Standard buttons (53 pcs)
+#### - Standard buttons (53 pcs) ![AliExpress](https://www.aliexpress.com/item/1005004623750938.html )
 ![KeyCap](/Images/Keyboard05.jpg )
 
-#### - Wide buttons (4 pcs)
+
+#### - Wide buttons (4 pcs) ![AliExpress](https://www.aliexpress.com/item/1005003201365793.html )
 ![WideKeyCaps](/Images/WideKeyCaps.jpg )
 
-#### - Space bar 6.25u (1 pc)
+
+#### - Space bar 6.25u (1 pc) ![AliExpress](https://www.aliexpress.com/item/1005003211865080.html )
 ![SpaceBar](/Images/SpaceBar.jpg )
 
-### Mechanical stabilizer for spacebar 6.25u (1 pc)
+### Mechanical stabilizer for spacebar 6.25u (1 pc) ![AliExpress](https://www.aliexpress.com/item/1005002552011081.html )
 ![Stabilisers](/Images/Stabilisers.jpg )
 
 ### 3D printed inserts
