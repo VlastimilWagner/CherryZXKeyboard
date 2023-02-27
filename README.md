@@ -17,11 +17,11 @@ In the [Gerber](/Gerber) directory there are materials for production. For examp
 
 ### Electronic Parts
 These are common cheap parts from a local dealer - for example TME.
-30 pcs Diode BAT42
-1 pc Electrolytic capacitor 10u
-5 pcs Resistor network (6x-1-104LF) 
-5 pcs 74HC4066
-5 pcs DIP14 socket
+* 30 pcs Diode BAT42
+* 1 pc Electrolytic capacitor 10u
+* 5 pcs Resistor network (6x-1-104LF) 
+* 5 pcs 74HC4066
+* 5 pcs DIP14 socket
 
 ### Mechanical MX Switches (62 pcs) [AliExpress](https://www.aliexpress.com/item/1005004285423123.html )
 You can use the original, but rather expensive Cherry MX, or, like me, a copy of the MX switches from AliExpress.
